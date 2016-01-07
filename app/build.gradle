@@ -9,7 +9,7 @@ android {
         props.load(new FileInputStream(file(project.rootProject.file("local.properties"))))
 
         applicationId "barqsoft.footballscores"
-        minSdkVersion 11
+        minSdkVersion 17
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
